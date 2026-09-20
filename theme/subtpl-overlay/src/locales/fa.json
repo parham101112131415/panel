@@ -1,0 +1,132 @@
+{
+  "brand": {
+    "name": "Parham",
+    "tagline": "مقاوم در برابر سانسور"
+  },
+  "dashboard": {
+    "title": "داشبورد کاربری",
+    "loading": "در حال بارگذاری اطلاعات...",
+    "error": "خطا در بارگذاری اطلاعات"
+  },
+  "userInfo": {
+    "title": "اطلاعات کاربر",
+    "username": "نام کاربری",
+    "status": "وضعیت",
+    "usedTraffic": "حجم مصرفی",
+    "expireDate": "تاریخ انقضا",
+    "lifetimeTraffic": "حجم کل",
+    "unlimited": "نامحدود",
+    "noTimeLimit": "بدون محدودیت زمان",
+    "totalLimit": "حجم سرویس",
+    "used": "مصرف شده",
+    "lastOnline": "آخرین اتصال",
+    "expiryDate": "تاریخ انقضا",
+    "duration": "مدت زمان",
+    "available": "در دسترس",
+    "supportUrl": "پشتیبانی",
+    "announcement": "اعلان",
+    "viewAnnouncement": "مشاهده اعلان"
+  },
+  "config": {
+    "title": "لینک کانفیگ ها",
+    "subscriptionLink": "لینک اشتراک"
+  },
+  "usage": {
+    "title": "آمار مصرف",
+    "dataPoints": "کل نقاط داده",
+    "error": "خطا در بارگذاری داده‌های نمودار",
+    "recentActivity": "فعالیت‌های اخیر",
+    "totalUsage": "مصرف کل",
+    "noDataInRange": "برای بازه انتخاب‌شده داده‌ای وجود ندارد"
+  },
+  "common": {
+    "loading": "در حال بارگذاری...",
+    "error": "خطایی رخ داد"
+  },
+  "theme": {
+    "toggle": "تغییر تم",
+    "light": "روشن",
+    "dark": "تیره",
+    "system": "سیستم"
+  },
+  "timeRange": {
+    "1h": "۱ ساعت",
+    "12h": "۱۲ ساعت",
+    "24h": "۲۴ ساعت",
+    "7d": "۷ روز",
+    "30d": "۳۰ روز",
+    "90d": "۹۰ روز"
+  },
+  "online": "آنلاین",
+  "notConnectedYet": "هنوز متصل نشده",
+  "expires": "منقضی می‌شود در",
+  "expired": "منقضی شده",
+  "remaining": "حجم باقی مانده",
+  "time": {
+    "ago": "پیش",
+    "second": "ثانیه",
+    "seconds": "ثانیه",
+    "min": "دقیقه",
+    "mins": "دقیقه",
+    "hour": "ساعت",
+    "hours": "ساعت",
+    "day": "روز",
+    "days": "روز",
+    "month": "ماه",
+    "months": "ماه",
+    "year": "سال",
+    "years": "سال"
+  },
+  "qr": {
+    "title": "کد QR",
+    "show": "کد QR",
+    "copy": "کپی لینک",
+    "copied": "کپی شد!",
+    "close": "بستن",
+    "error": "خطا در ایجاد کد QR",
+    "tooLong": "لینک برای کد QR خیلی طولانی است",
+    "useCopy": "لطفاً از دکمه کپی استفاده کنید",
+    "format": "فرمت کد QR",
+    "config": "کانفیگ"
+  },
+  "configActions": {
+    "copyConfig": "کپی کانفیگ",
+    "copyBase64": "کپی Base64",
+    "downloadWireGuard": "دانلود WireGuard",
+    "downloadStarted": "دانلود شروع شد",
+    "downloadFailed": "خطا در دانلود کانفیگ"
+  },
+  "clipboard": {
+    "copied": "در کلیپ‌بورد کپی شد!",
+    "failed": "خطا در کپی کردن",
+    "notSupported": "کلیپ‌بورد پشتیبانی نمی‌شود"
+  },
+  "status": {
+    "active": "فعال",
+    "disabled": "غیرفعال",
+    "limited": "محدود",
+    "expired": "منقضی شده",
+    "on_hold": "در انتظار"
+  },
+  "apps": {
+    "title": "اپلیکیشن‌ ها",
+    "import": "افزودن",
+    "download": "دانلود",
+    "recommended": "پیشنهادی",
+    "viewDetails": "جزئیات",
+    "description": "توضیحات",
+    "copyAll": "کپی همه کانفیگ‌ها",
+    "copyAllSuccess": "همه کانفیگ‌ها کپی شد!",
+    "currentOS": "سیستم شما",
+    "platform": {
+      "ios": "iOS",
+      "android": "اندروید",
+      "windows": "ویندوز",
+      "macos": "macOS",
+      "linux": "لینوکس",
+      "appletv": "Apple TV",
+      "androidtv": "Android TV",
+      "other": "سایر"
+    }
+  }
+}

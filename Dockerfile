@@ -22,7 +22,9 @@ RUN git clone --depth 1 --branch ${UPSTREAM_TAG} https://github.com/PasarGuard/p
          dashboard/src/components/common/github-star.tsx \
          dashboard/src/components/common/topbar-ad.tsx \
          dashboard/src/components/layout/github-star.tsx \
-         dashboard/src/components/layout/goal-progress.tsx
+         dashboard/src/components/layout/goal-progress.tsx \
+         dashboard/src/utils/docs-url.ts \
+         dashboard/src/constants/Project.ts
 # Parham overlay (mirrors dashboard/ paths)
 COPY theme/dashboard-overlay/ ./dashboard/
 WORKDIR /src/dashboard
