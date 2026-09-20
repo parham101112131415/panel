@@ -160,9 +160,61 @@ svg.lucide-chevron-down {
   transform: translateY(-2px);
 }
 
+/* ── v2: red scrollbar ── */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(10, 2, 2, 0.6);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #7f1d1d, #450a0a);
+  border-radius: 8px;
+  border: 2px solid rgba(10, 2, 2, 0.6);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ef4444, #7f1d1d);
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #7f1d1d rgba(10, 2, 2, 0.6);
+}
+
+/* ── v2: card hover glow ── */
+[data-slot='card']:hover,
+.card-hover-glow:hover {
+  border-color: rgba(239, 68, 68, 0.45) !important;
+  box-shadow: 0 0 24px rgba(239, 68, 68, 0.14), 0 8px 32px rgba(0, 0, 0, 0.35) !important;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* ── v2: sidebar active item glow ── */
+[data-active='true'] {
+  box-shadow: inset 2px 0 0 #ef4444, 0 0 16px rgba(239, 68, 68, 0.25) !important;
+}
+
+/* ── v2: logo glow ring ── */
+.px-logo-glow {
+  border-radius: 9999px;
+  box-shadow: 0 0 18px rgba(239, 68, 68, 0.45), 0 0 46px rgba(239, 68, 68, 0.2);
+  animation: px-logo-breathe 3.2s ease-in-out infinite;
+}
+
+@keyframes px-logo-breathe {
+  0%, 100% { box-shadow: 0 0 14px rgba(239, 68, 68, 0.35), 0 0 34px rgba(239, 68, 68, 0.15); }
+  50% { box-shadow: 0 0 26px rgba(239, 68, 68, 0.65), 0 0 60px rgba(239, 68, 68, 0.3); }
+}
+
 @media (prefers-reduced-motion: reduce) {
   body::before,
   .px-brand,
+  .px-logo-glow,
   .px-in,
   .px-ripple,
   .px-shake,
