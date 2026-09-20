@@ -26,8 +26,8 @@ RUN git clone --depth 1 --branch ${UPSTREAM_TAG} https://github.com/PasarGuard/p
 # Parham overlay (mirrors dashboard/ paths)
 COPY theme/dashboard-overlay/ ./dashboard/
 WORKDIR /src/dashboard
-RUN bun install --frozen-lockfile && ./build_dashboard.sh
-# -> ./build/ (+ 404.html)
+RUN bun install --frozen-lockfile && /src/build_dashboard.sh
+# -> /src/dashboard/build/ (+ 404.html)
 
 # ---------- stage 2: themed subscription page (single index.html) ----------
 FROM oven/bun:1 AS subtpl-builder
