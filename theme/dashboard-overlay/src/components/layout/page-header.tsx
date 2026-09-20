@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
+import Snowfall from '@/components/common/snowfall'
 import useDirDetection from '@/hooks/use-dir-detection'
 import { cn } from '@/lib/utils'
 import { LucideIcon, Plus } from 'lucide-react'
